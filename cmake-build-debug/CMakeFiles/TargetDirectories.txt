@@ -1,0 +1,3 @@
+G:/project/proj_clion/test2/cmake-build-debug/CMakeFiles/test2.elf.dir
+G:/project/proj_clion/test2/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/project/proj_clion/test2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

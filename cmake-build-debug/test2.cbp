@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="G:/project/proj_clion/test2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test2.elf">
+				<Option output="G:/project/proj_clion/test2/cmake-build-debug/test2.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/project/proj_clion/test2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F429xx"/>
+					<Add directory="G:/project/proj_clion/test2/RT-Thread"/>
+					<Add directory="G:/project/proj_clion/test2/Core/Inc"/>
+					<Add directory="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="G:/project/proj_clion/test2/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="G:/project/proj_clion/test2/Drivers/CMSIS/Include"/>
+					<Add directory="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/include"/>
+					<Add directory="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config"/>
+					<Add directory="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/finsh"/>
+					<Add directory="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/components/finsh"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 test2.elf"/>
+					<CompileFile command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test2.elf/fast">
+				<Option output="G:/project/proj_clion/test2/cmake-build-debug/test2.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/project/proj_clion/test2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F429xx"/>
+					<Add directory="G:/project/proj_clion/test2/RT-Thread"/>
+					<Add directory="G:/project/proj_clion/test2/Core/Inc"/>
+					<Add directory="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="G:/project/proj_clion/test2/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="G:/project/proj_clion/test2/Drivers/CMSIS/Include"/>
+					<Add directory="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/include"/>
+					<Add directory="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config"/>
+					<Add directory="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/finsh"/>
+					<Add directory="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/components/finsh"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 test2.elf/fast"/>
+					<CompileFile command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="G:/project/proj_clion/test2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="G:/project/proj_clion/test2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/PROGRA~1/MINGW_~1/mingw64/bin/mingw32-make.exe -f &quot;G:/project/proj_clion/test2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="G:/project/proj_clion/test2/Core/Inc/main.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Core/Inc/stm32f4xx_it.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Core/Src/board.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Core/Src/main.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Core/Src/stm32f4xx_hal_timebase_tim.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Core/Src/stm32f4xx_it.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Core/Src/syscalls.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Core/Src/sysmem.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Core/Src/system_stm32f4xx.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Core/Startup/startup_stm32f429zitx.s">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/components/device/device.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/components/finsh/cmd.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh_api.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh_config.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh_port.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/components/finsh/msh.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/components/finsh/msh.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/components/finsh/shell.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/components/finsh/shell.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/finsh/finsh.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/finsh/msh.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/finsh/shell.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/include/rtdbg.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/include/rthw.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/libcpu/arm/cortex-m4/context_gcc.S">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/libcpu/arm/cortex-m4/cpuport.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/src/clock.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/src/components.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/src/cpu.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/src/idle.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/src/ipc.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/src/irq.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/src/kservice.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/src/mem.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/src/memheap.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/src/mempool.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/src/object.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/src/scheduler.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/src/slab.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/src/thread.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/Middlewares/Third_Party/RealThread_RTOS/src/timer.c">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/RT-Thread/rtconfig.h">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/STM32F429ZITX_FLASH.ld">
+			<Option target="test2.elf"/>
+		</Unit>
+		<Unit filename="G:/project/proj_clion/test2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

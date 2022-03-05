@@ -1,0 +1,27 @@
+"E:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/Program Files/MinGW_8_1_0/mingw64/bin/mingw32-make.exe" "-DCMAKE_C_COMPILER=E:/Program Files/MinGW_8_1_0/mingw64/bin/x86_64-w64-mingw32-gcc.exe" "-DCMAKE_CXX_COMPILER=E:/Program Files/MinGW_8_1_0/mingw64/bin/x86_64-w64-mingw32-g++.exe" -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" G:\project\proj_clion\test2
+-- Minimal optimization, debug info included
+-- Configuring done
+You have changed variables that require your cache to be deleted.
+Configure will be re-run and you may have to reset some variables.
+The following variables have changed:
+CMAKE_C_COMPILER= E:/Program Files/MinGW_8_1_0/mingw64/bin/x86_64-w64-mingw32-gcc.exe
+CMAKE_CXX_COMPILER= E:/Program Files/MinGW_8_1_0/mingw64/bin/x86_64-w64-mingw32-g++.exe
+
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- The ASM compiler identification is GNU
+-- Found assembler: E:/Program Files/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: E:/Program Files/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: E:/Program Files/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: G:/project/proj_clion/test2/cmake-build-debug
